@@ -17,3 +17,22 @@ In order to run the gRPC Client "stuff" from within the Browser, I want to have 
 ## Goals
 Once I managed the WASM-part, the ToDo-List will grow. 
 Services and messages are getting defined inside the .proto-file, and the methods in the servers main.go file.
+
+
+---
+
+# When the App is running and technically working
+
+## Tests
+[] Unit Tests
+[] Running Tests with Github Actions
+
+## Build
+[] Building a container for server, webassembly
+
+## Release 
+[] Release them to a container registry (ghcr.io)
+
+## Deployment
+[] Prepare for Kubernetes Deployment
+[] ArgoCD Implementation (Apps-of-Apps)
